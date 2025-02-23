@@ -94,7 +94,7 @@ def get_upcoming_birthdays(users):
 # check 
 users = [
     {"name": "+John Doe", "birthday": "1985.02.23"},
-    {"name": "+Jane Smith", "birthday": "1990.02.22"},
+    {"name": "-Jane Smith", "birthday": "1990.02.22"},
     {"name": "+Eva Smith", "birthday": "1985.02.24"},
     {"name": "-Mark Zukerberg", "birthday": "1990.01.27"}, 
     {"name": "+Bruce Willis", "birthday": "1985.03.01"},
