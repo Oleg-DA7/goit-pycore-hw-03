@@ -23,7 +23,7 @@ print(type(get_days_from_today('0001-2-28'))) # type Integer
 # яка допоможе генерувати набір унікальних випадкових чисел для таких лотерей. 
 
 def get_numbers_ticket(min = 1, max = 36, quantity = 6):
-    result = np.random.choice(range(max), quantity, replace=False)
+    result = np.random.choice(range(min, max), quantity, replace=False)
     result.sort()
     result = result.tolist()    
     return result
